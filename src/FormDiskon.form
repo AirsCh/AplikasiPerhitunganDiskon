@@ -182,8 +182,16 @@
         <Component class="javax.swing.JTextField" name="txtKupon">
         </Component>
         <Component class="javax.swing.JTextField" name="txtHasil">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txtHemat">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="focusable" type="boolean" value="false"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JComboBox" name="cmbDiskon">
           <Properties>

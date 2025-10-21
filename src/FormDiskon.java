@@ -18,7 +18,7 @@ public class FormDiskon extends javax.swing.JFrame {
 
         // Pengaturan slider
         sldDiskon.setMinimum(0);
-        sldDiskon.setMaximum(50);
+        sldDiskon.setMaximum(25);
         sldDiskon.setMajorTickSpacing(10);
         sldDiskon.setMinorTickSpacing(5);
         sldDiskon.setPaintLabels(true);
@@ -150,6 +150,12 @@ public class FormDiskon extends javax.swing.JFrame {
         lblHasil.setText("Harga Akhir");
 
         jLabel6.setText("Total Penghematan");
+
+        txtHasil.setEditable(false);
+        txtHasil.setFocusable(false);
+
+        txtHemat.setEditable(false);
+        txtHemat.setFocusable(false);
 
         cmbDiskon.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
